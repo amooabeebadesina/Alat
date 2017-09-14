@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/gradient" />
+
+    <!--<item>
+        &lt;!&ndash;<bitmap
+            android:gravity="center"
+            android:src="@android:drawable/ic_lock_idle_alarm"
+            />&ndash;&gt;
+    </item>-->
+
+</layer-list>

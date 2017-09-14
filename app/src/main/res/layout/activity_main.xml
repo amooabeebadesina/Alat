@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp"
     tools:context="com.example.abeeb.alat.activities.MainActivity">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:scaleType="center"
+        android:src="@mipmap/alat_logo"
+        android:layout_marginTop="150dp"
+        android:layout_weight="8"
+        android:layout_marginBottom="150dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/alat_logo" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:background="@color/white"
+        android:textColor="@color/dark_wine"
+        android:layout_weight="0.5"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:background="@drawable/gradient"
+        android:layout_weight="0.5"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>

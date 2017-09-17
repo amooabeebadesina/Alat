@@ -5,15 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="35dp"
+    android:paddingTop="50dp"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    android:paddingBottom="80dp"
     tools:context="com.example.abeeb.alat.activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="Vector Asset" />
+    </RelativeLayout>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="center"
-        android:src="@mipmap/alat_logo"
-        android:layout_marginTop="150dp"
+        android:src="@mipmap/logo_white"
         android:layout_weight="8"
         android:layout_marginBottom="150dp"
         android:layout_gravity="center_horizontal"
@@ -23,14 +39,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
-        android:background="@color/white"
+        android:id="@+id/sign_up"
+        android:background="@drawable/rounded_button"
         android:textColor="@color/dark_wine"
         android:layout_weight="0.5"
+        android:textSize="@dimen/login_btn_size"
+        android:layout_marginBottom="20dp"
         android:textAlignment="center"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"
+        android:id="@+id/login"
+        android:textSize="@dimen/login_btn_size"
         android:textColor="@color/white"
         android:background="@drawable/gradient"
         android:layout_weight="0.5"

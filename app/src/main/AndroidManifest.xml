@@ -24,8 +24,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.RegisterActivity" />
-        <activity android:name=".activities.LoginActivity"></activity>
+
+        <!--This was difficult for me to find; that's what happens when you abandon a work for too long-->
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:theme="@style/NoActionBarTheme"/>
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/NoActionBarTheme"/>
     </application>
 
 </manifest>

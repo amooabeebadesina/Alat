@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.example.abeeb.alat.R;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AbstractActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

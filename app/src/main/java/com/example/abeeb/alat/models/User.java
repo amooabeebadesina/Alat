@@ -5,4 +5,5 @@ package com.example.abeeb.alat.models;
  */
 
 public class User {
+
 }

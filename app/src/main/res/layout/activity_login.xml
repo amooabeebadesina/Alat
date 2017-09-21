@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.abeeb.alat.activities.LoginActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/24_hour_support"/>
+        <!--the name of the resource needs to be changed; also export all images used in the mock-ups-->
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:id="@+id/login"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/dark_wine"
+            android:layout_weight="0.5"
+            android:textSize="@dimen/login_btn_size"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

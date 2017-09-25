@@ -3,4 +3,11 @@
     <string name="alat_logo">Logo</string>
     <string name="sign_up">Sign Up</string>
     <string name="login">Login</string>
+    <string name="welcome">Welcome back...</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="register1a">Let\'s get started...</string>
+    <string name="register1b">Your bank in your hand</string>
+    <string name="country_code">+234</string>
+    <string name="register1c">Start</string>
 </resources>

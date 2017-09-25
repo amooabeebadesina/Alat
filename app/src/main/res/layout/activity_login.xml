@@ -5,6 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    android:paddingBottom="80dp"
     tools:context="com.example.abeeb.alat.activities.LoginActivity">
 
     <RelativeLayout
@@ -14,25 +19,63 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/24_hour_support"/>
-        <!--the name of the resource needs to be changed; also export all images used in the mock-ups-->
+            android:layout_alignParentTop="true"
+            android:layout_weight="5"
+            android:contentDescription="Vector Asset"
+            android:scaleType="center"
+            android:src="@drawable/white_logo" />
 
-
-
-        <Button
-            android:layout_width="match_parent"
+        <ImageView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/login"
-            android:id="@+id/login"
-            android:background="@drawable/rounded_button"
-            android:textColor="@color/dark_wine"
-            android:layout_weight="0.5"
-            android:textSize="@dimen/login_btn_size"
-            android:layout_marginBottom="20dp"
-            android:textAlignment="center"/>
-
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="5"
+            android:contentDescription="Vector Asset"
+            android:scaleType="matrix"
+            android:src="@drawable/support" />
 
     </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/welcome"
+        android:textSize="50sp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/login"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/dark_wine"
+        android:textSize="@dimen/login_btn_size"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"/>
+
 
 
 </LinearLayout>

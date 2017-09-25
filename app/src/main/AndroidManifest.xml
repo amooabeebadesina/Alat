@@ -25,14 +25,17 @@
             </intent-filter>
         </activity>
 
-        <!--This was difficult for me to find; that's what happens when you abandon a work for too long-->
+        <!-- This was difficult for me to find; that's what happens when you abandon a work for too long -->
         <activity
             android:name=".activities.RegisterActivity"
-            android:theme="@style/NoActionBarTheme"/>
+            android:theme="@style/NoActionBarTheme" />
 
         <activity
+            android:name=".activities.Regiister2Activity"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
             android:name=".activities.LoginActivity"
-            android:theme="@style/NoActionBarTheme"/>
+            android:theme="@style/NoActionBarTheme" />
     </application>
 
 </manifest>

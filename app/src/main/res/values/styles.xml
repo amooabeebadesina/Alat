@@ -16,4 +16,8 @@
         <item name="android:windowBackground">@drawable/gradient</item>
     </style>
 
+    <!--<style name="TextStyle" parent="TextAppearance.AppCompat.Headline">-->
+        <!--<item name="android:textStyle"@drawable/impoertthe style"-->
+    <!--</style>-->
+
 </resources>

@@ -27,7 +27,7 @@ public class MainActivity extends AbstractActivity {
     }
 
     private void launchLoginActivity() {
-        Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(intent);
     }
 

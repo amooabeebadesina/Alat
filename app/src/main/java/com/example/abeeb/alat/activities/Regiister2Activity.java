@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.example.abeeb.alat.R;
 
-public class Regiister2Activity extends AppCompatActivity {
+public class Regiister2Activity extends AbstractActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

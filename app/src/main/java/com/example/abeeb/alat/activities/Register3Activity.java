@@ -1,15 +1,13 @@
-package com.example.abeeb.alat.activities;
+package com.example.abeeb.alat;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.abeeb.alat.R;
-
-public class Regiister2Activity extends AbstractActivity{
+public class Register3Activity extends AbstractActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_regiister2);
+        setContentView(R.layout.activity_register3);
     }
 }
